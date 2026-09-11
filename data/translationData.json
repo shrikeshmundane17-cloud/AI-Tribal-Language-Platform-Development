@@ -1,0 +1,1284 @@
+{
+  "meta": {
+    "platform": "Bhasha Setu",
+    "version": "2.0.0",
+    "generatedAt": "2026-09-11T15:57:19.226Z",
+    "supportedLanguages": [
+      {
+        "id": "santhali",
+        "name": "Santhali",
+        "localName": "ᱥᱟᱱᱛᱟᱲᱤ",
+        "code": "sat",
+        "script": "Ol Chiki",
+        "altScript": "Roman / Devanagari",
+        "regions": [
+          "Jharkhand",
+          "Odisha",
+          "West Bengal",
+          "Assam"
+        ]
+      },
+      {
+        "id": "mundari",
+        "name": "Mundari",
+        "localName": "मुण्डारी",
+        "code": "unr",
+        "script": "Roman / Devanagari",
+        "altScript": "Mundari Bani",
+        "regions": [
+          "Jharkhand",
+          "Odisha",
+          "West Bengal"
+        ]
+      },
+      {
+        "id": "ho",
+        "name": "Ho",
+        "localName": "𑢹𑣉𑣉 𑢶𑣁𑢡𑣂",
+        "code": "hoc",
+        "script": "Warang Citi",
+        "altScript": "Roman / Devanagari",
+        "regions": [
+          "Jharkhand",
+          "Odisha"
+        ]
+      },
+      {
+        "id": "kharia",
+        "name": "Kharia",
+        "localName": "खड़िया",
+        "code": "khr",
+        "script": "Roman / Devanagari",
+        "altScript": "Latin",
+        "regions": [
+          "Jharkhand",
+          "Odisha",
+          "Chhattisgarh"
+        ]
+      },
+      {
+        "id": "kurukh",
+        "name": "Kurukh (Oraon)",
+        "localName": "कुड़ुख़",
+        "code": "kru",
+        "script": "Tolong Siki / Devanagari",
+        "altScript": "Roman",
+        "regions": [
+          "Jharkhand",
+          "Chhattisgarh",
+          "Odisha"
+        ]
+      }
+    ]
+  },
+  "languages": {
+    "santhali": {
+      "meta": {
+        "language": "Santhali",
+        "script": "Ol Chiki / Devanagari",
+        "code": "sat"
+      },
+      "greetings": {
+        "hello": {
+          "hi": "जोहार",
+          "en": "Johar",
+          "transliteration": "Johar"
+        },
+        "good morning": {
+          "hi": "सुकुन बिहान",
+          "en": "Sukun Bihan",
+          "transliteration": "Sukun Bihan"
+        },
+        "good evening": {
+          "hi": "सुकुन साम",
+          "en": "Sukun Sam",
+          "transliteration": "Sukun Sam"
+        },
+        "goodbye": {
+          "hi": "आलाय",
+          "en": "Alay",
+          "transliteration": "Alay"
+        },
+        "thank you": {
+          "hi": "सेवा",
+          "en": "Seva",
+          "transliteration": "Seva"
+        },
+        "welcome": {
+          "hi": "दाराम",
+          "en": "Daram",
+          "transliteration": "Daram"
+        }
+      },
+      "classroom": {
+        "teacher": {
+          "hi": "गुरु",
+          "en": "Guru",
+          "transliteration": "Guru"
+        },
+        "student": {
+          "hi": "हड़ाम",
+          "en": "Hadam",
+          "transliteration": "Hadam"
+        },
+        "book": {
+          "hi": "पुथी",
+          "en": "Puthi",
+          "transliteration": "Puthi"
+        },
+        "school": {
+          "hi": "इसकुल",
+          "en": "Iskul",
+          "transliteration": "Iskul"
+        },
+        "class": {
+          "hi": "क्लास",
+          "en": "Klas",
+          "transliteration": "Klas"
+        },
+        "lesson": {
+          "hi": "पाठ",
+          "en": "Path",
+          "transliteration": "Path"
+        },
+        "write": {
+          "hi": "लिखो",
+          "en": "Likho",
+          "transliteration": "Likho"
+        },
+        "read": {
+          "hi": "पड़ोः",
+          "en": "Paro",
+          "transliteration": "Paro"
+        },
+        "understand": {
+          "hi": "बुझाव",
+          "en": "Bujhav",
+          "transliteration": "Bujhav"
+        },
+        "question": {
+          "hi": "सवाल",
+          "en": "Sawal",
+          "transliteration": "Sawal"
+        },
+        "answer": {
+          "hi": "जवाब",
+          "en": "Jawab",
+          "transliteration": "Jawab"
+        },
+        "correct": {
+          "hi": "ठीक",
+          "en": "Thik",
+          "transliteration": "Thik"
+        },
+        "wrong": {
+          "hi": "गलत",
+          "en": "Galat",
+          "transliteration": "Galat"
+        },
+        "homework": {
+          "hi": "घर काज",
+          "en": "Ghar Kaj",
+          "transliteration": "Ghar Kaj"
+        }
+      },
+      "numbers": {
+        "one": {
+          "hi": "मित",
+          "en": "Mit",
+          "transliteration": "Mit"
+        },
+        "two": {
+          "hi": "बार",
+          "en": "Bar",
+          "transliteration": "Bar"
+        },
+        "three": {
+          "hi": "पे",
+          "en": "Pe",
+          "transliteration": "Pe"
+        },
+        "four": {
+          "hi": "पुन",
+          "en": "Pun",
+          "transliteration": "Pun"
+        },
+        "five": {
+          "hi": "मोड़े",
+          "en": "More",
+          "transliteration": "More"
+        },
+        "six": {
+          "hi": "तुरुई",
+          "en": "Turui",
+          "transliteration": "Turui"
+        },
+        "seven": {
+          "hi": "एयाए",
+          "en": "Eyae",
+          "transliteration": "Eyae"
+        },
+        "eight": {
+          "hi": "इरल",
+          "en": "Iral",
+          "transliteration": "Iral"
+        },
+        "nine": {
+          "hi": "अरे",
+          "en": "Are",
+          "transliteration": "Are"
+        },
+        "ten": {
+          "hi": "गेल",
+          "en": "Gel",
+          "transliteration": "Gel"
+        }
+      },
+      "common": {
+        "water": {
+          "hi": "दाक",
+          "en": "Dak",
+          "transliteration": "Dak"
+        },
+        "food": {
+          "hi": "जोम",
+          "en": "Jom",
+          "transliteration": "Jom"
+        },
+        "house": {
+          "hi": "ओड़ाक",
+          "en": "Orak",
+          "transliteration": "Orak"
+        },
+        "tree": {
+          "hi": "दारे",
+          "en": "Dare",
+          "transliteration": "Dare"
+        },
+        "sun": {
+          "hi": "सिञ",
+          "en": "Sinj",
+          "transliteration": "Sinj"
+        },
+        "moon": {
+          "hi": "चांदो",
+          "en": "Chando",
+          "transliteration": "Chando"
+        },
+        "sky": {
+          "hi": "आकाश",
+          "en": "Akash",
+          "transliteration": "Akash"
+        },
+        "mother": {
+          "hi": "आयो",
+          "en": "Ayo",
+          "transliteration": "Ayo"
+        },
+        "father": {
+          "hi": "अबा",
+          "en": "Aba",
+          "transliteration": "Aba"
+        },
+        "yes": {
+          "hi": "हो",
+          "en": "Ho",
+          "transliteration": "Ho"
+        },
+        "no": {
+          "hi": "बाङ",
+          "en": "Bang",
+          "transliteration": "Bang"
+        },
+        "come": {
+          "hi": "एम",
+          "en": "Em",
+          "transliteration": "Em"
+        },
+        "go": {
+          "hi": "सेन",
+          "en": "Sen",
+          "transliteration": "Sen"
+        },
+        "eat": {
+          "hi": "जोमो",
+          "en": "Jomo",
+          "transliteration": "Jomo"
+        },
+        "drink": {
+          "hi": "उ",
+          "en": "U",
+          "transliteration": "U"
+        },
+        "name": {
+          "hi": "नाओं",
+          "en": "Naon",
+          "transliteration": "Naon"
+        },
+        "village": {
+          "hi": "आतो",
+          "en": "Ato",
+          "transliteration": "Ato"
+        },
+        "forest": {
+          "hi": "बिर",
+          "en": "Bir",
+          "transliteration": "Bir"
+        },
+        "river": {
+          "hi": "दाड़े",
+          "en": "Dare",
+          "transliteration": "Dare"
+        },
+        "day": {
+          "hi": "नित",
+          "en": "Nit",
+          "transliteration": "Nit"
+        }
+      },
+      "phrases": {
+        "how are you": {
+          "hi": "आपे काना",
+          "en": "Ape kana",
+          "transliteration": "Ape kana"
+        },
+        "i am fine": {
+          "hi": "आम बाराय",
+          "en": "Am baray",
+          "transliteration": "Am baray"
+        },
+        "what is your name": {
+          "hi": "मी नाओं काना",
+          "en": "Mi naon kana",
+          "transliteration": "Mi naon kana"
+        },
+        "open your book": {
+          "hi": "आकां पुथी खोलो",
+          "en": "Akan puthi kholo",
+          "transliteration": "Akan puthi kholo"
+        },
+        "sit down": {
+          "hi": "होपोन ओलाया",
+          "en": "Hopon olaya",
+          "transliteration": "Hopon olaya"
+        },
+        "stand up": {
+          "hi": "उठो",
+          "en": "Utho",
+          "transliteration": "Utho"
+        },
+        "pay attention": {
+          "hi": "धियान देओ",
+          "en": "Dhiyan deo",
+          "transliteration": "Dhiyan deo"
+        },
+        "do you understand": {
+          "hi": "मेनाक बुझावले",
+          "en": "Menak bujhavle",
+          "transliteration": "Menak bujhavle"
+        },
+        "repeat after me": {
+          "hi": "आम पाछे बोलो",
+          "en": "Am pache bolo",
+          "transliteration": "Am pache bolo"
+        },
+        "very good": {
+          "hi": "बहुत सुन्दर",
+          "en": "Bahut Sundar",
+          "transliteration": "Bahut Sundar"
+        }
+      },
+      "hindi_dict": {
+        "नमस्ते": "जोहार",
+        "धन्यवाद": "सेवा",
+        "पानी": "दाक",
+        "खाना": "जोम",
+        "घर": "ओड़ाक",
+        "स्कूल": "इसकुल",
+        "किताब": "पुथी",
+        "शिक्षक": "गुरु",
+        "विद्यार्थी": "हड़ाम",
+        "हाँ": "हो",
+        "नहीं": "बाङ",
+        "आओ": "एम",
+        "जाओ": "सेन",
+        "खाओ": "जोमो",
+        "माँ": "आयो",
+        "पिता": "अबा",
+        "गाँव": "आतो",
+        "जंगल": "बिर",
+        "नदी": "दाड़े",
+        "सूरज": "सिञ",
+        "चाँद": "चांदो",
+        "पढ़ो": "पड़ोः",
+        "लिखो": "लिखो",
+        "समझो": "बुझाव",
+        "सवाल": "सवाल",
+        "जवाब": "जवाब",
+        "सही": "ठीक",
+        "गलत": "गलत",
+        "एक": "मित",
+        "दो": "बार",
+        "तीन": "पे",
+        "चार": "पुन",
+        "पाँच": "मोड़े",
+        "दिन": "नित",
+        "नाम": "नाओं",
+        "पेड़": "दारे",
+        "आकाश": "आकाश",
+        "सुबह": "बिहान",
+        "शाम": "साम"
+      },
+      "olChikiSamples": {
+        "Johar": "ᱡᱚᱦᱟᱨ",
+        "Dak": "ᱫᱟᱠ",
+        "Iskul": "ᱤᱥᱠᱩᱞ",
+        "Puthi": "ᱯᱩᱛᱷᱤ",
+        "Guru": "ᱜᱩᱨᱩ",
+        "Mit": "ᱢᱤᱛ",
+        "Bar": "ᱵᱟᱨ",
+        "Pe": "ᱯᱮ"
+      }
+    },
+    "mundari": {
+      "meta": {
+        "language": "Mundari",
+        "script": "Warang Citi / Devanagari",
+        "code": "unr"
+      },
+      "greetings": {
+        "hello": {
+          "hi": "जोहार",
+          "en": "Johar",
+          "transliteration": "Johar"
+        },
+        "good morning": {
+          "hi": "नितोक सुबह",
+          "en": "Nitok Subah",
+          "transliteration": "Nitok Subah"
+        },
+        "goodbye": {
+          "hi": "पीढ़ी",
+          "en": "Pidhi",
+          "transliteration": "Pidhi"
+        },
+        "thank you": {
+          "hi": "सेवागे",
+          "en": "Sewage",
+          "transliteration": "Sewage"
+        },
+        "welcome": {
+          "hi": "स्वागतम्",
+          "en": "Swagatam",
+          "transliteration": "Swagatam"
+        }
+      },
+      "classroom": {
+        "teacher": {
+          "hi": "गुरु",
+          "en": "Guru",
+          "transliteration": "Guru"
+        },
+        "student": {
+          "hi": "चेला",
+          "en": "Chela",
+          "transliteration": "Chela"
+        },
+        "book": {
+          "hi": "सासन",
+          "en": "Sasan",
+          "transliteration": "Sasan"
+        },
+        "school": {
+          "hi": "इस्कुल",
+          "en": "Iskul",
+          "transliteration": "Iskul"
+        },
+        "read": {
+          "hi": "चालाक",
+          "en": "Chalak",
+          "transliteration": "Chalak"
+        },
+        "write": {
+          "hi": "उलिखान्",
+          "en": "Ulikhan",
+          "transliteration": "Ulikhan"
+        },
+        "question": {
+          "hi": "हुबू",
+          "en": "Huboo",
+          "transliteration": "Huboo"
+        },
+        "answer": {
+          "hi": "निश्चित",
+          "en": "Nishchit",
+          "transliteration": "Nishchit"
+        },
+        "correct": {
+          "hi": "सतिनाक",
+          "en": "Satinak",
+          "transliteration": "Satinak"
+        },
+        "wrong": {
+          "hi": "गलत",
+          "en": "Galat",
+          "transliteration": "Galat"
+        }
+      },
+      "common": {
+        "water": {
+          "hi": "दाक",
+          "en": "Dak",
+          "transliteration": "Dak"
+        },
+        "food": {
+          "hi": "जोम",
+          "en": "Jom",
+          "transliteration": "Jom"
+        },
+        "house": {
+          "hi": "ओड़ाक",
+          "en": "Orak",
+          "transliteration": "Orak"
+        },
+        "mother": {
+          "hi": "आयो",
+          "en": "Ayo",
+          "transliteration": "Ayo"
+        },
+        "father": {
+          "hi": "अबुइ",
+          "en": "Abui",
+          "transliteration": "Abui"
+        },
+        "yes": {
+          "hi": "हो",
+          "en": "Ho",
+          "transliteration": "Ho"
+        },
+        "no": {
+          "hi": "बाङ",
+          "en": "Bang",
+          "transliteration": "Bang"
+        },
+        "sun": {
+          "hi": "सिं",
+          "en": "Sing",
+          "transliteration": "Sing"
+        },
+        "moon": {
+          "hi": "चंदो",
+          "en": "Chando",
+          "transliteration": "Chando"
+        },
+        "village": {
+          "hi": "आतु",
+          "en": "Atu",
+          "transliteration": "Atu"
+        },
+        "tree": {
+          "hi": "हातु",
+          "en": "Hatu",
+          "transliteration": "Hatu"
+        },
+        "river": {
+          "hi": "नदी",
+          "en": "Nadi",
+          "transliteration": "Nadi"
+        },
+        "forest": {
+          "hi": "बिर",
+          "en": "Bir",
+          "transliteration": "Bir"
+        }
+      },
+      "numbers": {
+        "one": {
+          "hi": "मित्",
+          "en": "Mit",
+          "transliteration": "Mit"
+        },
+        "two": {
+          "hi": "बार",
+          "en": "Bar",
+          "transliteration": "Bar"
+        },
+        "three": {
+          "hi": "पें",
+          "en": "Peng",
+          "transliteration": "Peng"
+        },
+        "four": {
+          "hi": "पुनि",
+          "en": "Puni",
+          "transliteration": "Puni"
+        },
+        "five": {
+          "hi": "मोने",
+          "en": "Mone",
+          "transliteration": "Mone"
+        }
+      },
+      "hindi_dict": {
+        "नमस्ते": "जोहार",
+        "धन्यवाद": "सेवागे",
+        "पानी": "दाक",
+        "खाना": "जोम",
+        "घर": "ओड़ाक",
+        "स्कूल": "इस्कुल",
+        "किताब": "सासन",
+        "शिक्षक": "गुरु",
+        "विद्यार्थी": "चेला",
+        "हाँ": "हो",
+        "नहीं": "बाङ",
+        "माँ": "आयो",
+        "पिता": "अबुइ",
+        "गाँव": "आतु",
+        "जंगल": "बिर",
+        "सूरज": "सिं",
+        "चांद": "चंदो",
+        "पढ़ो": "चालाक",
+        "लिखो": "उलिखान्",
+        "सवाल": "हुबू",
+        "सही": "सतिनाक",
+        "गलत": "गलत",
+        "एक": "मित्",
+        "दो": "बार",
+        "तीन": "पें",
+        "चार": "पुनि",
+        "पांच": "मोने"
+      }
+    },
+    "ho": {
+      "meta": {
+        "language": "Ho",
+        "script": "Warang Citi / Devanagari",
+        "code": "hoc"
+      },
+      "greetings": {
+        "hello": {
+          "hi": "जोहार",
+          "en": "Johar",
+          "transliteration": "Johar"
+        },
+        "good morning": {
+          "hi": "नितोक सुबह",
+          "en": "Nitok Subah",
+          "transliteration": "Nitok Subah"
+        },
+        "goodbye": {
+          "hi": "पीढ़ी",
+          "en": "Pidhi",
+          "transliteration": "Pidhi"
+        },
+        "thank you": {
+          "hi": "धन्यवाद",
+          "en": "Dhanyavad",
+          "transliteration": "Dhanyavad"
+        }
+      },
+      "classroom": {
+        "teacher": {
+          "hi": "गुरु",
+          "en": "Guru",
+          "transliteration": "Guru"
+        },
+        "student": {
+          "hi": "चेला",
+          "en": "Chela",
+          "transliteration": "Chela"
+        },
+        "book": {
+          "hi": "पुसतक",
+          "en": "Pustak",
+          "transliteration": "Pustak"
+        },
+        "school": {
+          "hi": "इस्कुल",
+          "en": "Iskul",
+          "transliteration": "Iskul"
+        },
+        "read": {
+          "hi": "पड़ो",
+          "en": "Paro",
+          "transliteration": "Paro"
+        },
+        "write": {
+          "hi": "लिखो",
+          "en": "Likho",
+          "transliteration": "Likho"
+        },
+        "correct": {
+          "hi": "सही",
+          "en": "Sahi",
+          "transliteration": "Sahi"
+        },
+        "wrong": {
+          "hi": "गलत",
+          "en": "Galat",
+          "transliteration": "Galat"
+        }
+      },
+      "common": {
+        "water": {
+          "hi": "दाक",
+          "en": "Dak",
+          "transliteration": "Dak"
+        },
+        "food": {
+          "hi": "जोम",
+          "en": "Jom",
+          "transliteration": "Jom"
+        },
+        "house": {
+          "hi": "ओड़ाक",
+          "en": "Orak",
+          "transliteration": "Orak"
+        },
+        "mother": {
+          "hi": "आयो",
+          "en": "Ayo",
+          "transliteration": "Ayo"
+        },
+        "father": {
+          "hi": "अबा",
+          "en": "Aba",
+          "transliteration": "Aba"
+        },
+        "yes": {
+          "hi": "हो",
+          "en": "Ho",
+          "transliteration": "Ho"
+        },
+        "no": {
+          "hi": "बाङ",
+          "en": "Bang",
+          "transliteration": "Bang"
+        },
+        "village": {
+          "hi": "आतु",
+          "en": "Atu",
+          "transliteration": "Atu"
+        },
+        "sun": {
+          "hi": "सिंग",
+          "en": "Sing",
+          "transliteration": "Sing"
+        },
+        "moon": {
+          "hi": "चांद",
+          "en": "Chand",
+          "transliteration": "Chand"
+        }
+      },
+      "numbers": {
+        "one": {
+          "hi": "मिन्द",
+          "en": "Mind",
+          "transliteration": "Mind"
+        },
+        "two": {
+          "hi": "बारि",
+          "en": "Bari",
+          "transliteration": "Bari"
+        },
+        "three": {
+          "hi": "पें",
+          "en": "Peng",
+          "transliteration": "Peng"
+        },
+        "four": {
+          "hi": "पुनि",
+          "en": "Puni",
+          "transliteration": "Puni"
+        },
+        "five": {
+          "hi": "मोने",
+          "en": "Mone",
+          "transliteration": "Mone"
+        }
+      },
+      "hindi_dict": {
+        "नमस्ते": "जोहार",
+        "पानी": "दाक",
+        "खाना": "जोम",
+        "घर": "ओड़ाक",
+        "स्कूल": "इस्कुल",
+        "शिक्षक": "गुरु",
+        "विद्यार्थी": "चेला",
+        "हाँ": "हो",
+        "नहीं": "बाङ",
+        "माँ": "आयो",
+        "पिता": "अबा",
+        "गाँव": "आतु",
+        "सूरज": "सिंग",
+        "चांद": "चांद",
+        "सही": "सही",
+        "गलत": "गलत",
+        "एक": "मिन्द",
+        "दो": "बारि",
+        "तीन": "पें"
+      },
+      "warangCitiSamples": {
+        "ho": "𑢹𑣉𑣉",
+        "johar": "𑢽𑣉𑢡𑣁𑣜",
+        "dak": "𑢵𑣁𑢲",
+        "iskul": "𑢱𑣈𑢲𑣁𑢬",
+        "guru": "𑢱𑣃𑣜𑣃",
+        "chela": "𑢾𑣈𑢬𑣁",
+        "mind": "𑢾𑣂𑢳",
+        "bari": "𑢤𑣁𑣜𑣂"
+      }
+    },
+    "kharia": {
+      "meta": {
+        "language": "Kharia",
+        "script": "Latin / Devanagari",
+        "code": "khr"
+      },
+      "greetings": {
+        "hello": {
+          "hi": "जोहार",
+          "en": "Johar",
+          "transliteration": "Johar"
+        },
+        "goodbye": {
+          "hi": "विदाई",
+          "en": "Vidai",
+          "transliteration": "Vidai"
+        },
+        "thank you": {
+          "hi": "धन्यवाद",
+          "en": "Dhanyavad",
+          "transliteration": "Dhanyavad"
+        }
+      },
+      "classroom": {
+        "teacher": {
+          "hi": "गुरु",
+          "en": "Guru",
+          "transliteration": "Guru"
+        },
+        "student": {
+          "hi": "होन",
+          "en": "Hon",
+          "transliteration": "Hon"
+        },
+        "book": {
+          "hi": "किताब",
+          "en": "Kitab",
+          "transliteration": "Kitab"
+        },
+        "school": {
+          "hi": "इस्कुल",
+          "en": "Iskul",
+          "transliteration": "Iskul"
+        },
+        "read": {
+          "hi": "पारो",
+          "en": "Paro",
+          "transliteration": "Paro"
+        },
+        "write": {
+          "hi": "लिखो",
+          "en": "Likho",
+          "transliteration": "Likho"
+        },
+        "correct": {
+          "hi": "सही",
+          "en": "Sahi",
+          "transliteration": "Sahi"
+        },
+        "wrong": {
+          "hi": "गलत",
+          "en": "Galat",
+          "transliteration": "Galat"
+        }
+      },
+      "common": {
+        "water": {
+          "hi": "उदु",
+          "en": "Udu",
+          "transliteration": "Udu"
+        },
+        "food": {
+          "hi": "जेरा",
+          "en": "Jera",
+          "transliteration": "Jera"
+        },
+        "house": {
+          "hi": "घर",
+          "en": "Ghar",
+          "transliteration": "Ghar"
+        },
+        "mother": {
+          "hi": "अमा",
+          "en": "Ama",
+          "transliteration": "Ama"
+        },
+        "father": {
+          "hi": "आबा",
+          "en": "Aba",
+          "transliteration": "Aba"
+        },
+        "yes": {
+          "hi": "हाँ",
+          "en": "Han",
+          "transliteration": "Han"
+        },
+        "no": {
+          "hi": "नाय",
+          "en": "Nay",
+          "transliteration": "Nay"
+        },
+        "sun": {
+          "hi": "सूरज",
+          "en": "Suraj",
+          "transliteration": "Suraj"
+        },
+        "moon": {
+          "hi": "चाँद",
+          "en": "Chand",
+          "transliteration": "Chand"
+        },
+        "tree": {
+          "hi": "पेड़",
+          "en": "Ped",
+          "transliteration": "Ped"
+        },
+        "village": {
+          "hi": "गाँव",
+          "en": "Gaan",
+          "transliteration": "Gaan"
+        }
+      },
+      "numbers": {
+        "one": {
+          "hi": "मिआद",
+          "en": "Miad",
+          "transliteration": "Miad"
+        },
+        "two": {
+          "hi": "बरिया",
+          "en": "Bariya",
+          "transliteration": "Bariya"
+        },
+        "three": {
+          "hi": "पिया",
+          "en": "Piya",
+          "transliteration": "Piya"
+        },
+        "four": {
+          "hi": "पुनिया",
+          "en": "Puniya",
+          "transliteration": "Puniya"
+        },
+        "five": {
+          "hi": "मोनेया",
+          "en": "Moneya",
+          "transliteration": "Moneya"
+        }
+      },
+      "hindi_dict": {
+        "नमस्ते": "जोहार",
+        "पानी": "उदु",
+        "खाना": "जेरा",
+        "घर": "घर",
+        "स्कूल": "इस्कुल",
+        "शिक्षक": "गुरु",
+        "विद्यार्थी": "होन",
+        "हाँ": "हाँ",
+        "नहीं": "नाय",
+        "माँ": "अमा",
+        "पिता": "आबा",
+        "सूरज": "सूरज",
+        "चाँद": "चाँद",
+        "सही": "सही",
+        "गलत": "गलत",
+        "एक": "मिआद",
+        "दो": "बरिया",
+        "तीन": "पिया"
+      }
+    },
+    "kurukh": {
+      "meta": {
+        "language": "Kurukh",
+        "script": "Devanagari / Tolong Siki",
+        "code": "kru"
+      },
+      "greetings": {
+        "hello": {
+          "hi": "पेनेन",
+          "en": "Penen",
+          "transliteration": "Penen"
+        },
+        "good morning": {
+          "hi": "पेनेन सुबह",
+          "en": "Penen Subah",
+          "transliteration": "Penen Subah"
+        },
+        "goodbye": {
+          "hi": "जाना जाना",
+          "en": "Jana Jana",
+          "transliteration": "Jana Jana"
+        },
+        "thank you": {
+          "hi": "धन्यवाद",
+          "en": "Dhanyavad",
+          "transliteration": "Dhanyavad"
+        }
+      },
+      "classroom": {
+        "teacher": {
+          "hi": "गुरूजी",
+          "en": "Guruji",
+          "transliteration": "Guruji"
+        },
+        "student": {
+          "hi": "पेंडा",
+          "en": "Penda",
+          "transliteration": "Penda"
+        },
+        "book": {
+          "hi": "किताब",
+          "en": "Kitab",
+          "transliteration": "Kitab"
+        },
+        "school": {
+          "hi": "इस्कुल",
+          "en": "Iskul",
+          "transliteration": "Iskul"
+        },
+        "read": {
+          "hi": "पढ़ो",
+          "en": "Parho",
+          "transliteration": "Parho"
+        },
+        "write": {
+          "hi": "लिखो",
+          "en": "Likho",
+          "transliteration": "Likho"
+        },
+        "correct": {
+          "hi": "सहीना",
+          "en": "Sahina",
+          "transliteration": "Sahina"
+        },
+        "wrong": {
+          "hi": "गलत",
+          "en": "Galat",
+          "transliteration": "Galat"
+        }
+      },
+      "common": {
+        "water": {
+          "hi": "उना",
+          "en": "Una",
+          "transliteration": "Una"
+        },
+        "food": {
+          "hi": "नासा",
+          "en": "Nasa",
+          "transliteration": "Nasa"
+        },
+        "house": {
+          "hi": "एंडा",
+          "en": "Enda",
+          "transliteration": "Enda"
+        },
+        "mother": {
+          "hi": "ऐंना",
+          "en": "Aina",
+          "transliteration": "Aina"
+        },
+        "father": {
+          "hi": "अप्पा",
+          "en": "Appa",
+          "transliteration": "Appa"
+        },
+        "yes": {
+          "hi": "एं",
+          "en": "Eng",
+          "transliteration": "Eng"
+        },
+        "no": {
+          "hi": "नाई",
+          "en": "Nai",
+          "transliteration": "Nai"
+        },
+        "sun": {
+          "hi": "दिनि",
+          "en": "Dini",
+          "transliteration": "Dini"
+        },
+        "moon": {
+          "hi": "चंदेना",
+          "en": "Chandena",
+          "transliteration": "Chandena"
+        },
+        "village": {
+          "hi": "नगरा",
+          "en": "Nagara",
+          "transliteration": "Nagara"
+        },
+        "forest": {
+          "hi": "जंगल",
+          "en": "Jangal",
+          "transliteration": "Jangal"
+        },
+        "river": {
+          "hi": "नदी",
+          "en": "Nadi",
+          "transliteration": "Nadi"
+        }
+      },
+      "numbers": {
+        "one": {
+          "hi": "मिंदा",
+          "en": "Minda",
+          "transliteration": "Minda"
+        },
+        "two": {
+          "hi": "इन्दा",
+          "en": "Inda",
+          "transliteration": "Inda"
+        },
+        "three": {
+          "hi": "भूंदा",
+          "en": "Bhunda",
+          "transliteration": "Bhunda"
+        },
+        "four": {
+          "hi": "चांदा",
+          "en": "Chanda",
+          "transliteration": "Chanda"
+        },
+        "five": {
+          "hi": "पेन्जा",
+          "en": "Penja",
+          "transliteration": "Penja"
+        }
+      },
+      "hindi_dict": {
+        "नमस्ते": "पेनेन",
+        "पानी": "उना",
+        "खाना": "नासा",
+        "घर": "एंडा",
+        "स्कूल": "इस्कुल",
+        "शिक्षक": "गुरूजी",
+        "विद्यार्थी": "पेंडा",
+        "हाँ": "एं",
+        "नहीं": "नाई",
+        "माँ": "ऐंना",
+        "पिता": "अप्पा",
+        "गाँव": "नगरा",
+        "जंगल": "जंगल",
+        "सूरज": "दिनि",
+        "चाँद": "चंदेना",
+        "सही": "सहीना",
+        "गलत": "गलत",
+        "एक": "मिंदा",
+        "दो": "इन्दा",
+        "तीन": "भूंदा"
+      }
+    }
+  },
+  "commonPhrases": {
+    "app": {
+      "name": "Bhasha Setu",
+      "tagline": "Offline Tribal Language Translator"
+    },
+    "ui": {
+      "translate": "Translate",
+      "speak": "Speak",
+      "listen": "Listen",
+      "clear": "Clear",
+      "copy": "Copy",
+      "repeat": "Repeat",
+      "stop": "Stop",
+      "pause": "Pause",
+      "play": "Play",
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "save": "Save",
+      "delete": "Delete",
+      "back": "Back",
+      "next": "Next",
+      "done": "Done",
+      "loading": "Loading...",
+      "error": "Error",
+      "success": "Success"
+    },
+    "errors": {
+      "no_model": "No language model installed.",
+      "select_language": "Please select a language.",
+      "voice_not_recognized": "Voice not recognized. Try again.",
+      "translation_failed": "Text cannot be translated.",
+      "offline_mode": "Offline mode is active.",
+      "mic_permission": "Microphone permission required.",
+      "camera_permission": "Camera permission required.",
+      "empty_input": "Please enter text to translate.",
+      "login_failed": "Invalid username or password.",
+      "quiz_no_answer": "Please provide an answer."
+    },
+    "sample_lessons": [
+      {
+        "title": "Greetings",
+        "content": "Learn basic greetings in tribal languages",
+        "category": "basics"
+      },
+      {
+        "title": "Numbers 1-10",
+        "content": "Count from one to ten",
+        "category": "numbers"
+      },
+      {
+        "title": "Family Members",
+        "content": "Learn family relationship words",
+        "category": "family"
+      },
+      {
+        "title": "Nature & Environment",
+        "content": "Trees, rivers, mountains",
+        "category": "nature"
+      },
+      {
+        "title": "Classroom Words",
+        "content": "School vocabulary",
+        "category": "classroom"
+      }
+    ],
+    "sample_quizzes": [
+      {
+        "question": "What is water called in Santhali?",
+        "answer": "Dak",
+        "language": "Santhali",
+        "difficulty": "easy"
+      },
+      {
+        "question": "How do you say Hello in Mundari?",
+        "answer": "Johar",
+        "language": "Mundari",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is school called in Ho?",
+        "answer": "Iskul",
+        "language": "Ho",
+        "difficulty": "easy"
+      },
+      {
+        "question": "How do you say mother in Kharia?",
+        "answer": "Ama",
+        "language": "Kharia",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What is the number 5 in Kurukh?",
+        "answer": "Penja",
+        "language": "Kurukh",
+        "difficulty": "medium"
+      }
+    ]
+  }
+}

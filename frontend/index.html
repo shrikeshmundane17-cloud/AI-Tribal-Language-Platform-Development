@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhasha Setu — AI Tribal Language Translator & Vernacular Pedagogy</title>
+  <meta name="description" content="AI-Powered Vernacular Pedagogy & Real-Time Tribal Language Translation Platform for Santhali, Mundari, Ho, Kharia, and Kurukh.">
+  
+  <!-- Modern Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- Application Stylesheets -->
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/dashboard.css">
+</head>
+<body>
+
+  <div class="app-container">
+    <!-- Sidebar Navigation Mount -->
+    <div id="sidebar-mount"></div>
+
+    <div class="main-wrapper">
+      <!-- Navbar Mount -->
+      <div id="navbar-mount"></div>
+
+      <!-- Main Dynamic Content Mount -->
+      <main class="content-area" id="app-content">
+        <!-- Rendered by app.js router -->
+      </main>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container"></div>
+
+  <!-- Modal Mount -->
+  <div id="modal-container"></div>
+
+  <!-- Frontend Services -->
+  <script src="services/apiService.js"></script>
+  <script src="services/authService.js"></script>
+  <script src="services/speechService.js"></script>
+  <script src="services/ocrService.js"></script>
+
+  <!-- Components -->
+  <script src="components/Navbar.js"></script>
+  <script src="components/Sidebar.js"></script>
+
+  <!-- Application Pages -->
+  <script src="pages/LandingPage.js"></script>
+  <script src="pages/LoginPage.js"></script>
+  <script src="pages/TeacherDashboard.js"></script>
+  <script src="pages/StudentDashboard.js"></script>
+  <script src="pages/TextTranslatorPage.js"></script>
+  <script src="pages/VoiceTranslatorPage.js"></script>
+  <script src="pages/TTSPage.js"></script>
+  <script src="pages/OCRPage.js"></script>
+  <script src="pages/LessonsPage.js"></script>
+  <script src="pages/QuizPage.js"></script>
+  <script src="pages/StudentResponsesPage.js"></script>
+  <script src="pages/HistoryPage.js"></script>
+  <script src="pages/LanguagesDirectoryPage.js"></script>
+  <script src="pages/SettingsPage.js"></script>
+  <script src="pages/ProfilePage.js"></script>
+
+  <!-- Master Router -->
+  <script src="app.js"></script>
+</body>
+</html>
