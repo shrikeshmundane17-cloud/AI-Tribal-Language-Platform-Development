@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "bhasha-setu",
   "version": "1.0.0",
   "description": "AI-Powered Vernacular Pedagogy & Real-Time Tribal Language Translation Platform",
@@ -8,7 +8,7 @@
     "dev": "node backend/server.js"
   },
   "keywords": [
-    "tribal-languages", 
+    "tribal-languages",
     "santhali",
     "mundari",
     "ho",
