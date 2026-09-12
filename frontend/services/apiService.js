@@ -7,7 +7,7 @@ class ApiService {
   }
 
   async request(endpoint, options = {}) {
-   const API_URL = "https://your-backend-url.vercel.app";
+   const API_URL = "https://YOUR-BACKEND-URL/api/translate";
     const headers = {
       'Content-Type': 'application/json',
       ...(options.headers || {})
