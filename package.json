@@ -8,7 +8,7 @@
     "dev": "node backend/server.js"
   },
   "keywords": [
-    "tribal-languages",
+    "tribal-languages", 
     "santhali",
     "mundari",
     "ho",
